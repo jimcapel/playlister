@@ -7,9 +7,9 @@ const port = "8888"
 
 const youtubeRouter = express.Router();
 
-const clientId = "269837464836-rbpivvo68mle2d6475cctc6ar86oc99f.apps.googleusercontent.com"
-const clientSecret = "jBtvp34C5rjpGRZnlWOrbh8I"
-const redirectUri = `http://localhost:${port}/youtube/callback`
+const clientId = "YOUR CLIENT ID"
+const clientSecret = "YOUR CLIENT SECRET"
+const redirectUri = `YOUR REDIRECT URI`
 
 const oauth2Client = new google.auth.OAuth2(
     clientId,
