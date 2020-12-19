@@ -4,9 +4,9 @@ const querystring = require("querystring");
 const cookieParser = require("cookie-parser");
 const spotifyRouter = express.Router();
 
-const clientId = "e342146aba78483184b302744252ab8a";
-const clientSecret = "049d120ffeab45ea933b2a08bdef2f66";
-const redirectUri = "http://localhost:8888/spotify/callback";
+const clientId = "YOUR CLIENT ID";
+const clientSecret = "YOUR CLIENT SECRET";
+const redirectUri = "YOUR REDIRECT URI";
 const port = "8888";
 const stateKey = "spotify_auth_state";
 
